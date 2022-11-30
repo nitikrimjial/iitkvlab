@@ -1,0 +1,108 @@
+.microscope{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(148, 166, 192);
+    position: absolute;
+    border-radius: 10px;
+}
+.whole_body{
+    position: relative;
+    width: 480px;
+    top: 125px;
+    left: 10px;
+}
+.nose{
+    position: relative;
+    width: 132px;
+top: -324px;
+left: 248px;
+}
+.lense{
+    position: relative;
+    width: 88px;
+    top: -180px;
+    left: 25px;
+}
+.middle{
+    position: relative;
+    top: -225px;
+    left: 111px;
+    height: 100px;
+}
+.holding_plate{
+    position: relative;
+top: -186px;
+left: 211px;
+height: 124px;
+}
+.clip{
+    position: relative;
+    top: -221px;
+    left: 97px;
+    height: 81px;
+}
+
+.knob1{
+    position: relative;
+top: -398px;
+left: -63px;
+height: 44px;
+}
+.knob2{
+    position: relative;
+    top: -188px;
+    left: -202px;
+    height: 44px;
+}
+.mirror{
+    position: relative;
+top: -192px;
+left: 226px;
+height: 49px;
+}
+
+.whole_body:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.clip:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.holding_plate:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.knob1:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.knob2:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.lense:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.middle:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.mirror:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
+.nose:hover{ 
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px rgb(239, 249, 88));
+    transform: scale(1.3);
+}
